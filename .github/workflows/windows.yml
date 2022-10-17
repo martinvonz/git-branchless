@@ -23,7 +23,7 @@ jobs:
           toolchain: 1.56.0
 
       - name: Cache dependencies
-        uses: Swatinem/rust-cache@842ef286fff290e445b90b4002cc9807c3669641
+        uses: Swatinem/rust-cache@22c9328bcba27aa81a32b1bef27c7e3c78052531
 
       - name: Compile
         run: cargo build --benches --tests
