@@ -26,7 +26,7 @@ jobs:
           components: rustfmt, clippy
 
       - name: Cache dependencies
-        uses: Swatinem/rust-cache@842ef286fff290e445b90b4002cc9807c3669641
+        uses: Swatinem/rust-cache@6fd3edff6979b79f87531400ad694fb7f2c84b1f
 
       - name: Run `cargo fmt`
         uses: actions-rs/cargo@v1
